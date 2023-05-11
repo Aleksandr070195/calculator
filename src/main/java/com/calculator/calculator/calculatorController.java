@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class calculatorController {
     @GetMapping("/calculator")
     public String greating() {
-        return " Добро пожаловать в калькулятор";
+        return " Добро пожаловать в калькулятор ";
     }
 
     @GetMapping("/calculator/plus")
