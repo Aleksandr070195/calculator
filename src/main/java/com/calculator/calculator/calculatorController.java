@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class calculatorController {
     private final calculatorService calculator = new calculatorService();
-
     @GetMapping("/calculator")
     public String greating() {
         return " Добро пожаловать в калькулятор ";
